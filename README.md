@@ -48,8 +48,9 @@
   3）获取钱包地址
   
   选择钱包账号
-  
-  ![image](https://github.com/user-attachments/assets/06b8a7af-8a2e-4b75-a5b6-b1701c9e9b43)
+
+  ![image](https://github.com/user-attachments/assets/a47ee2a2-c3de-4c4e-acef-ac1d718bbee4)
+
   
   选择网络Analog Testnet，复制账号地址
   
