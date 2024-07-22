@@ -57,20 +57,29 @@
   ![image](https://github.com/user-attachments/assets/e30318d6-7f2c-4c04-9769-9b6533402d6a)
   
 6、加入官方Discard群，领取测试网代币
+
 官方DIscard群链接：https://discord.com/invite/analog
+
 找到faucet频道，发送【!faucet 第五步获取的钱包地址】领取测试网代币
+
 ![image](https://github.com/user-attachments/assets/b33c1b36-d674-4317-baa8-c1ce35b27c34)
 
 7、前往官方网站https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.testnet.analog.one#/explorer绑定验证器、钱包及会话地址
+
 1）使用第五步创建的钱包连接到测试网
 ![image](https://github.com/user-attachments/assets/a520a110-1953-45c4-9b8d-e637d0debc52)
+
 2）选择网络-质押-账户-设置验证人
 ![image](https://github.com/user-attachments/assets/f0f8aad0-b6ad-40e0-b3db-66fc26f5edf3)
+
 3）绑定第六步领取了测试网代币的钱包
 ![1b5b5ddfb269898d6c0b36a799c8999](https://github.com/user-attachments/assets/2ad9ac20-142c-4220-be6b-0fb7c9615bd6)
+
 4）绑定会话密钥（第四步获取的）
 ![b0ce4deeaf5ddfb372ed4fb6132a48f](https://github.com/user-attachments/assets/9ff0e5ea-610d-4920-9f61-96e4f4428626)
+
 5）绑定成功后等待验证者上链即可，可通过官网查看节点同步
+
 https://telemetry.analog.one/#/0x0614f7b74a2e47f7c8d8e2a5335be84bdde9402a43f5decdec03200a87c8b943
 ![image](https://github.com/user-attachments/assets/b21a7d23-7833-42b9-8f98-7619293ec0a7)
 
