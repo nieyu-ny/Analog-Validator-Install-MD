@@ -1,9 +1,12 @@
 # Analog-Validator-Install-MD
 1、检查是否安装docker
+  
   docker --version
   未安装则执行docker安装命令：
+  
   curl -fsSL https://get.docker.com | bash -s docker
 2、使用官方docker镜像安装Analog，将节点名称修改为自定义名称后执行即可
+  
   docker run -d --network="host" --name analog -v /var/lib/analog:/data analoglabs/timechain \
   --base-path /data \
   --rpc-external \
@@ -13,6 +16,7 @@
   --rpc-methods Unsafe
 3、安装完成后通过docker命令查看运行情况
   docker ps -a
+
 ![image](https://github.com/user-attachments/assets/cedf25b8-b990-4f0e-b7e7-e07230da9661)
 
 4、执行命令获取会话密钥，后续领取测试网代币时使用
@@ -27,6 +31,7 @@
     运行结果中，result的值就是会话密钥
 
 ![image](https://github.com/user-attachments/assets/940857a3-dcff-4ec0-8972-26e3edabcd13)
+
 
 5、创建钱包
   1）添加Talisman钱包插件(钱包插件地址:https://chromewebstore.google.com/detail/talisman-ethereum-and-pol/fijngjgcjhjmmpcmkeiomlglpeiijkld?pli=1)
