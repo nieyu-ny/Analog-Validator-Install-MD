@@ -5,6 +5,7 @@
   未安装则执行docker安装命令：
   
   curl -fsSL https://get.docker.com | bash -s docker
+  
 2、使用官方docker镜像安装Analog，将节点名称修改为自定义名称后执行即可
   
   docker run -d --network="host" --name analog -v /var/lib/analog:/data analoglabs/timechain \
@@ -14,12 +15,14 @@
   --rpc-cors all \
   --name=这里是节点名称，改为你自己想设置的名字 \
   --rpc-methods Unsafe
+  
 3、安装完成后通过docker命令查看运行情况
   docker ps -a
 
 ![image](https://github.com/user-attachments/assets/cedf25b8-b990-4f0e-b7e7-e07230da9661)
 
 4、执行命令获取会话密钥，后续领取测试网代币时使用
+
   curl http://127.0.0.1:9944 -H \
   "Content-Type:application/json;charset=utf-8" -d \
     '{
@@ -34,14 +37,18 @@
 
 
 5、创建钱包
+
   1）添加Talisman钱包插件(钱包插件地址:https://chromewebstore.google.com/detail/talisman-ethereum-and-pol/fijngjgcjhjmmpcmkeiomlglpeiijkld?pli=1)
+  
   2）创建Polkadot钱包账号
   ![image](https://github.com/user-attachments/assets/22e66f8a-7853-4dff-987e-790460b1fc52)
+  
   3）获取钱包地址
   选择钱包账号
   ![image](https://github.com/user-attachments/assets/06b8a7af-8a2e-4b75-a5b6-b1701c9e9b43)
   选择网络Analog Testnet，复制账号地址
   ![image](https://github.com/user-attachments/assets/e30318d6-7f2c-4c04-9769-9b6533402d6a)
+  
 6、加入官方Discard群，领取测试网代币
 官方DIscard群链接：https://discord.com/invite/analog
 找到faucet频道，发送【!faucet 第五步获取的钱包地址】领取测试网代币
