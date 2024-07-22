@@ -64,7 +64,7 @@
 
 ![image](https://github.com/user-attachments/assets/b33c1b36-d674-4317-baa8-c1ce35b27c34)
 
-7、前往官方网站https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.testnet.analog.one#/explorer绑定验证器、钱包及会话地址
+7、前往官方网站(https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.testnet.analog.one#/explorer)绑定验证器、钱包及会话地址
 
 1）使用第五步创建的钱包连接到测试网
 ![image](https://github.com/user-attachments/assets/a520a110-1953-45c4-9b8d-e637d0debc52)
@@ -81,6 +81,7 @@
 5）绑定成功后等待验证者上链即可，可通过官网查看节点同步
 
 https://telemetry.analog.one/#/0x0614f7b74a2e47f7c8d8e2a5335be84bdde9402a43f5decdec03200a87c8b943
+
 ![image](https://github.com/user-attachments/assets/b21a7d23-7833-42b9-8f98-7619293ec0a7)
 
 
