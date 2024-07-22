@@ -2,6 +2,7 @@
 1、检查是否安装docker
   
   docker --version
+  
   未安装则执行docker安装命令：
   
   curl -fsSL https://get.docker.com | bash -s docker
@@ -31,6 +32,7 @@
       "method":"author_rotateKeys",
       "params": []
     }'
+    
     运行结果中，result的值就是会话密钥
 
 ![image](https://github.com/user-attachments/assets/940857a3-dcff-4ec0-8972-26e3edabcd13)
