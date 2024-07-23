@@ -64,7 +64,7 @@
 
 ![image](https://github.com/user-attachments/assets/b33c1b36-d674-4317-baa8-c1ce35b27c34)
 
-7、前往官方网站(https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.testnet.analog.one#/explorer)绑定验证器、钱包及会话地址
+7、前往官方网站(https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.testnet.analog.one#/explorer) 绑定验证器、钱包及会话地址
 
 1）使用第五步创建的钱包连接到测试网
 ![image](https://github.com/user-attachments/assets/a520a110-1953-45c4-9b8d-e637d0debc52)
